@@ -53,7 +53,7 @@ class AppFixtures extends Fixture
         $language3->setName("Chinois");
 
         $user = new User();
-        $user->setEmail('blaise.pinheiro@gmail.com');
+        $user->setEmail('admin@gmail.com');
         $user->setPassword($this->passwordEncoder->encodePassword(
             $user,
             'hVnN27SC}p.94-$x'

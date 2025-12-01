@@ -57,7 +57,7 @@ class ResetPassword
         try {
             $this->em->flush();
             $this->mailService->sendEmail(
-                'blaise.pinheiro@gmail.com',
+                'admin@gmail.com',
                 $actualUser->getEmail(),
                 "Changement de mot de passe",
                 "email/resetPassword.html.twig",
